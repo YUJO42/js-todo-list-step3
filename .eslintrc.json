@@ -11,10 +11,14 @@
     "no-new": "off",
     "no-alert": "off",
     "no-console": "off",
+    "no-shadow": "off",
+    "no-underscore-dangle": "off",
     "no-param-reassign": "off",
     "no-return-assign": "off",
+    "consistent-return": "off",
     "import/extensions": "off",
-    "max-depth": ["error", 1],
+    "import/prefer-default-export": "off",
+    "max-depth": ["error", 2],
     "max-lines-per-function": ["error", 15]
   }
 }
